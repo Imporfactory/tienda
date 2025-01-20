@@ -1,6 +1,5 @@
 <?php
 // ENV
-require_once 'vendor/autoload.php';
 
 const HOST = 'ls-8e06bb570f2cc81e5d618c19210a6effa1ee9ab6.czuooq2g4q5f.us-east-2.rds.amazonaws.com';
 const USER = "dbmasteruser";
