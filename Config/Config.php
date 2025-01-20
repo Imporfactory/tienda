@@ -6,12 +6,12 @@ use Symfony\Component\Dotenv\Dotenv;
 
 $dotenv = new Dotenv();
 $dotenv->load(__DIR__ . '../.env');
+const HOST = '3.233.119.65';
+const USER = "imporsuit_system";
+const PASSWORD = "imporsuit_system";
+const DB = "imporsuitpro_new";
+const CHARSET = "utf8";
 
-define("HOST", $_ENV['DB_HOST']);
-define("USER", $_ENV['DB_USER']);
-define("PASSWORD", $_ENV['DB_PASSWORD']);
-define("DB", $_ENV['DB_NAME']);
-define("CHARSET", $_ENV['DB_CHARSET']);
 
 
 
