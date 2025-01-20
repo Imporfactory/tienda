@@ -1,0 +1,6 @@
+.vscode
+/vscode
+/nbproject/private/
+.env
+node_modules
+vendor
