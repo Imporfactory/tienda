@@ -2,10 +2,6 @@
 // ENV
 require_once 'vendor/autoload.php';
 
-use Symfony\Component\Dotenv\Dotenv;
-
-$dotenv = new Dotenv();
-$dotenv->load(__DIR__ . '../.env');
 const HOST = '3.233.119.65';
 const USER = "imporsuit_system";
 const PASSWORD = "imporsuit_system";
