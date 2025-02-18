@@ -37,6 +37,7 @@ define('FACEBOOK', $data[0]['facebook']);
 define('INSTRAGRAM', $data[0]['instagram']);
 define('TIKTOK', $data[0]['tiktok']);
 define('TELEFONO', $data[0]['whatsapp']);
+define('TITLE_PAGE', $data[0]['title_page']);
 ?>
 
 <?php include 'Views/templates/css/header_style.php'; ?>
@@ -90,7 +91,7 @@ $primera_seccion = obtenerPrimeraSeccion();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo NOMBRE_TIENDA;?></title>
+    <title><?php echo TITLE_PAGE;?></title>
     <link rel="icon" href="<?php echo SERVERURL . FAVICON; ?>" type="image/x-icon">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
